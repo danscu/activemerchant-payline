@@ -16,6 +16,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   
   gem.add_dependency 'activemerchant', '~> 1.0'
-  gem.add_dependency 'savon', '~> 1.0'
+  gem.add_dependency 'savon', '>= 1.0'
   gem.add_dependency 'builder', '~> 3.0'
 end
